@@ -1,0 +1,102 @@
+/* ===== Skeleton Loaders ===== */
+.skeleton-card {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.skeleton-card__poster {
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius-md);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-card__info {
+  padding: var(--space-3) var(--space-1) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.skeleton-card__rating {
+  width: 50px; height: 12px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-card__title {
+  width: 80%; height: 14px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-card__year {
+  width: 40px; height: 10px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Skeleton Row */
+.skeleton-row { padding: var(--space-6) 0; }
+.skeleton-row__title {
+  width: 180px; height: 24px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-5);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-row__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-5);
+}
+
+/* Skeleton Hero */
+.skeleton-hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: flex-end;
+  background: linear-gradient(to top, var(--color-bg), var(--color-surface-1));
+}
+.skeleton-hero__content {
+  padding: 0 var(--gutter) var(--space-8);
+  max-width: 680px;
+  width: 100%;
+}
+.skeleton-hero__chip {
+  width: 60px; height: 24px;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-4);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-hero__title {
+  width: 350px; max-width: 80%; height: 48px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-4);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-hero__text {
+  width: 100%; max-width: 480px; height: 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-2);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-hero__text--short { width: 60%; max-width: 300px; margin-bottom: var(--space-6); }
+.skeleton-hero__actions { display: flex; gap: var(--space-3); }
+.skeleton-hero__btn {
+  width: 140px; height: 44px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(90deg, var(--color-surface-1) 25%, var(--color-surface-2) 50%, var(--color-surface-1) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+.skeleton-hero__btn--secondary { width: 170px; }

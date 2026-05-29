@@ -1,0 +1,17 @@
+/* ===== SpinnerLoader Styles ===== */
+.spinner-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  min-height: 60vh;
+  padding: var(--space-8) 0;
+}
+
+.spinner-loader__message {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  letter-spacing: 0.02em;
+}
